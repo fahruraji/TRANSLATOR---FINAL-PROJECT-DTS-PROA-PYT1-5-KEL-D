@@ -1,0 +1,49 @@
+MDScreen:
+    name: "SplashScreen"
+    # on_enter: self.ids.progress.start()
+    MDFloatLayout:
+        md_bg_color: 226/255, 0, 48/255, 1
+        Image:
+            source: "./assets/images/logo.png"
+            size_hint: .38, .38
+            pos_hint: {"center_x": .5, "center_y": .71}
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Ellipse:
+                    pos: 100, 350
+                    size: 150, 150        
+
+        # BoxLayout:
+        #     pos_hint: {'center_x': .5, 'center_y': .5}
+        #     padding: "10dp"
+        #     size_hint: .5, .02
+
+        #     MDProgressBar:
+        #         id: progress
+        #         color: app.theme_cls.accent_color
+        #         type: "indeterminate"
+            
+
+        MDLabel:
+            text: "MULTILANGUANGE TRANSLATOR"
+            pos_hint: {'center_x': .5,'center_y': .4}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            font_size: "35sp"
+
+        MDSpinner:
+            size_hint: None, None
+            size: dp(30), dp(30)
+            pos_hint: {'center_x': .5, 'center_y': .25}
+            active: True
+            palette: [0.28627450980392155, 0.8431372549019608, 0.596078431372549, 1],             [0.3568627450980392, 0.3215686274509804, 0.8666666666666667, 1],             [0.8862745098039215, 0.36470588235294116, 0.592156862745098, 1],             [0.8784313725490196, 0.9058823529411765, 0.40784313725490196, 1],
+
+        MDLabel:
+            text: "PYT1-5 KELOMPOK D"
+            pos_hint: {'center_x': .5,'center_y': .1}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            font_size: "20sp"
