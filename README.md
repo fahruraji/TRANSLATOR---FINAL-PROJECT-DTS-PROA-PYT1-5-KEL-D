@@ -1,4 +1,5 @@
-# TRANSLATOR---FINAL-PROJECT-DTS-PROA-PYT1-5-KEL-D
+# TRANSLATOR
+## FINAL-PROJECT DTS-PROA KELAS PYT1-5 KELOMPOK D
 
 ![Splash Screen](Screenshots/SplashScreen.PNG)
 ![Main Screen](Screenshots/MainScreen.PNG)
